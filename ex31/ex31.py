@@ -1,6 +1,9 @@
 #-*-coding:utf8
 #http://learnpythonthehardway.org/book/ex31.html
 
+if "raw_input" not in dir(__builtins__):
+    raw_input = input
+
 print "You enter a dark room with two doors.  Do you go through door #1 or door #2?"
 
 door = raw_input("> ")
