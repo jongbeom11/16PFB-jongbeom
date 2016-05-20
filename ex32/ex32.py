@@ -27,8 +27,7 @@ for i in range(0, 6):
     # append is a function that lists understand
     elements.append(i)
 
-# 또는 python 에서는 아래와 같이 할 수도 있따
-# list comprehension
+# 또는 python 에서는 아래와 같이 할 수도 있따# list comprehension
 elements = [i for i in range(0, 6)]
 
 # now we can print them out too
