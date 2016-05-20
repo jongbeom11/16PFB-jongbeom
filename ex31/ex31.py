@@ -5,7 +5,6 @@ if "raw_input" not in dir(__builtins__):
     raw_input = input
 
 print "You enter a dark room with two doors.  Do you go through door #1 or door #2?"
-
 door = raw_input("> ")
 #상수를 왼쪽에 두는 것을 권장함 변수는 오른쪽!
 if "1" == door:
