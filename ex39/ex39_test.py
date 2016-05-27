@@ -1,3 +1,6 @@
+#-*-coding:utf8
+#http://learnpythonthehardway.org/book/ex39.html
+
 import hashmap
 
 # create a mapping of state to abbreviation
@@ -17,7 +20,6 @@ hashmap.set(cities, 'FL', 'Jacksonville')
 # add some more cities
 hashmap.set(cities, 'NY', 'New York')
 hashmap.set(cities, 'OR', 'Portland')
-
 
 # print out some cities
 print '-' * 10
