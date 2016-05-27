@@ -1,4 +1,4 @@
-#c-*-coding:utf8
+#-*-coding:utf8
 #http://learnpythonthehardway.org/book/ex39.html
 
 # create a mapping of state to abbreviation
